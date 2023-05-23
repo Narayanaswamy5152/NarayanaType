@@ -1,22 +1,8 @@
-In this project, let's build a **Digital Timer App** by applying the concepts we have learned till now.
+In this project, let's build a **Touch Type App** by applying the concepts we have learned till now.
 
-### Refer to the image below:
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/digital-timer-output.gif" alt="digital timer output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)" />
-</div>
-<br/>
 
-### Design Files
 
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px), Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/digital-timer-sm-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/digital-timer-lg-output.png)
-
-</details>
 
 ### Set Up Instructions
 
@@ -30,7 +16,7 @@ In this project, let's build a **Digital Timer App** by applying the concepts we
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionalities  added</summary>
 <br/>
 
 The app must have the following functionalities
@@ -42,20 +28,15 @@ The app must have the following functionalities
   - The **Timer** status should change to **Running**
   - The **Timer** should start running backwards from the timer limit value set
   - If the **Timer** has been paused after starting, it should resume from where it was paused
-  - Both the **Plus** and **Minus** buttons should be disabled
+  
 - When the **Pause** button is clicked,
   - The **Pause** text should change to **Start** text
   - The **pause icon** should be replaced by **play icon**
   - The **Timer** should stop running backwards
   - The **Timer** status should change to **Paused**
   - Both the **Plus** and **Minus** buttons should be disabled
-- When the button with the **Plus** symbol is clicked,
-  - The timer limit value should be incremented by one minute
-  - The **Timer** should display time with the increased timer limit value
-- When the button with the **Minus** symbol is clicked,
-  - The timer limit value should be decremented by one minute
-  - The **Timer** should display time with the decreased timer limit value
-- When the timer limit value is modified by clicking the **Plus** or **Minus** button and the **Start** button is clicked, then the **Timer** should start with the modified timer value
+
+
 - When the **Timer** ends (displays **00:00**)
   - The **Pause** text should change to **Start** text
   - The **pause icon** should be replaced by **play icon**
@@ -72,7 +53,9 @@ The app must have the following functionalities
   - The **Timer** should stop running backwards
   - The **Timer** status should change to **Paused**
   - Initial **Timer** limit value should be displayed
-  - Both the **Plus** and **Minus** buttons should be enabled
+  
+    
+  -When user enters the letters using keyboard which are showing on screen the accuracy percentage the letters count will be displayed on the screen.
 
 </details>
 
@@ -82,8 +65,8 @@ The app must have the following functionalities
 
 Use these files to complete the implementation:
 
-- `src/components/DigitalTimer/index.js`
-- `src/components/DigitalTimer/index.css`
+- `src/components/TouchType/index.js`
+- `src/components/TouchType/index.css`
 </details>
 
 ### Quick Tips
@@ -114,17 +97,7 @@ Use these files to complete the implementation:
 
 </details>
 
-### Resources
 
-<details>
-<summary>Image URLs</summary>
-
-- [https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png](https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png)
-- [https://assets.ccbp.in/frontend/react-js/play-icon-img.png](https://assets.ccbp.in/frontend/react-js/play-icon-img.png) alt should be **play icon**
-- [https://assets.ccbp.in/frontend/react-js/pause-icon-img.png](https://assets.ccbp.in/frontend/react-js/pause-icon-img.png) alt should be **pause icon**
-- [https://assets.ccbp.in/frontend/react-js/reset-icon-img.png](https://assets.ccbp.in/frontend/react-js/reset-icon-img.png) alt should be **reset icon**
-
-</details>
 
 <details>
 <summary>Colors</summary>
