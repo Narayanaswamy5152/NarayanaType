@@ -1,7 +1,7 @@
-import DigitalTimer from './components/DigitalTimer'
+import TouchType from './components/TouchType'
 
 import './App.css'
 
-const App = () => <DigitalTimer />
+const App = () => <TouchType />
 
 export default App

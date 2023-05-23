@@ -9,7 +9,7 @@ const initialState = {
   timerLimitInMinutes: 5,
 }
 
-class DigitalTimer extends Component {
+class TouchType extends Component {
   state = {...initialState, inputPhrase: ''}
 
   componentDidMount() {
@@ -172,4 +172,4 @@ class DigitalTimer extends Component {
   }
 }
 
-export default DigitalTimer
+export default TouchType
